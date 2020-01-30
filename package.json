@@ -1,0 +1,28 @@
+{
+  "name": "rule34-img-loader",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "~12.12.22",
+    "@typescript-eslint/eslint-plugin": "~2.14.0",
+    "@typescript-eslint/parser": "~2.14.0",
+    "eslint": "~6.8.0",
+    "rimraf": "~3.0.0",
+    "tsutils": "~3.17.0",
+    "typescript": "~3.7.4"
+  },
+  "scripts": {
+    "clean": "rimraf coverage build tmp",
+    "build": "tsc -p tsconfig.release.json",
+    "build:watch": "tsc -w -p tsconfig.release.json",
+    "start": "node build/main.js",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "author": "Maxim Makarov",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "node-html-parser": "^1.1.19",
+    "tslib": "~1.10.0"
+  }
+}
