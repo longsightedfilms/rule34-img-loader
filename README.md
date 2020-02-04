@@ -23,6 +23,10 @@ Images will be downloaded (by default) in "./output/Tag Folder". Because of 255 
 
 **output=** - optional, sets root download folder for images, by default it sets to "./output"
 
+**start=** - optional, start parsing image list with that page
+
+**end=** - optional, end parsing image list with that page
+
 ## Download speed
 Because site uses only 1 thread for download, maximum speed limited by 5Mbit/s. You can run several instances with different tags for speed improvement.
 
