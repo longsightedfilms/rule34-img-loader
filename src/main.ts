@@ -31,5 +31,6 @@ if (tag === undefined) {
 console.log(tag);
 console.log(folder);
 console.log(startPage);
+console.log(endPage);
 const parser = new Parser(tag, folder, startPage, endPage);
 parser.initParsing()

@@ -137,7 +137,7 @@ export class Parser {
   async initParsing() {
     const startTime = new Date();
     console.log('\x1b[36m', `[Info] - Parsing site with tag "${this.tag}"`);
-    if (this.lastPage !== this.currentPage) {
+    if (this.lastPage !== 1) {
       console.log('\x1b[36m', `[Info] - Limited range (from ${this.currentPage} to ${this.lastPage})`);
     } else {
       await this.getPagesCount();
