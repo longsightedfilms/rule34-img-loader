@@ -21,7 +21,7 @@
   "author": "Maxim Makarov",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "node-html-parser": "^1.1.19",
     "tslib": "~1.10.0"
   }
